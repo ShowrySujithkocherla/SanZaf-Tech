@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h1 {
+    color: #4CAF50;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  select {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .game-info {
+    margin-bottom: 20px;
+  }
+  
+  #feedback {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  #high-score {
+    font-weight: bold;
+    color: #2ecc71;
+  }

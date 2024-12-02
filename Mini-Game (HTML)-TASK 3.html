@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="./Mini-Game(CSS).css">
+  <script defer src="C:\Users\koche\OneDrive\Documents\SanZaf-Tech internship\TASK-3\Mini-Game(JS).js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Number Guessing Game</h1>
+    
+    <div class="game-info">
+      <label for="difficulty">Select Difficulty: </label>
+      <select id="difficulty">
+        <option value="easy">Easy (1-10)</option>
+        <option value="medium">Medium (1-50)</option>
+        <option value="hard">Hard (1-100)</option>
+      </select>
+      <p id="high-score">High Score: 0 attempts</p>
+    </div>
+
+    <div class="game-area">
+      <p>Guess the number!</p>
+      <input type="number" id="guess" placeholder="Enter your guess" />
+      <button id="submit-btn">Submit</button>
+      <p id="feedback"></p>
+      <p>Attempts: <span id="attempts">0</span></p>
+    </div>
+    
+    <button id="reset-btn" style="display: none;">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
